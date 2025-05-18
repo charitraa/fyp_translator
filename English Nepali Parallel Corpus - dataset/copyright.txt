@@ -1,0 +1,14 @@
+The English Nepali Parallel Corpus from the Nepali National Corpus is copyright material by the Nelralec - Bhasha Sanchar Consortium.
+
+This corpus may not be used or distributed without the written consent of ELDA/ELRA.
+For a user agreement, please contact:
+	ELDA / ELRA
+	55-57 Rue Brillat-Savarin
+    75013, Paris
+	tel: +33 1 43 13 33 33
+	fax: +33 1 43 13 33 30
+	email: contact@elda.org
+
+DISCLAIMER:	
+The consortium of the Nelralec - Bhasha Sanchar project did their best to clear all copyrighted parts. 
+If any copyright owner of written material data considers its ownerships rights to be infringed, he can request for the removal of the content and should communicate this request to ELDA. The relevant material will immediately be removed from the NNC, and each User will be asked to remove that part also.

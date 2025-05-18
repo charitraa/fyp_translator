@@ -1,0 +1,28 @@
+Project Statistics
+
+Total:
+	Segments	1592
+	Words	34494
+	Characters (without spaces)	186577
+	Characters (including spaces)	219100
+Remaining:
+	Segments	606
+	Words	11599
+	Characters (without spaces)	61777
+	Characters (including spaces)	72565
+Unique:
+	Segments	1530
+	Words	34421
+	Characters (without spaces)	186367
+	Characters (including spaces)	218885
+Unique Remaining:
+	Segments	596
+	Words	11581
+	Characters (without spaces)	61698
+	Characters (including spaces)	72484
+
+Individual File Statistics:
+
+File Name	Total Words	Remaining Words	Total Characters (without spaces)	Remaining Characters (without spaces)	Total Characters (including spaces)	Remaining Characters (including spaces)
+8th plan english-irrigation.txt	6265	4594	34588	25091	40544	29487
+8th plan english-part.txt	28229	7005	151989	36686	178556	43078

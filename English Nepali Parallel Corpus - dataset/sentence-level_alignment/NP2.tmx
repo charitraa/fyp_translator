@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header
+    creationtool="OmegaT"
+    creationtoolversion="1.7.3_2"
+    segtype="sentence"
+    o-tmf="OmegaT TMX"
+    adminlang="EN-US"
+    srclang="EN-US"
+    datatype="plaintext"
+  >
+  </header>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>PART I 
+ 
+GENERAL 
+CHAPTER I 
+Present Economic Conditions 
+The history of planned process of economic development in Nepal is short.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>वर्तमान आर्थिक स्थिति 
+ 
+ऐतिहासिक पृष्ठभूमि 
+ नेपालमा आधुनिक रुपमा आर्थिक विकाससम्बन्धी कार्यहरू प्रारम्भ भएको हालै मात्र हो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Before 1951, some development activities were undertaken but their scope was very limited.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>२००७ साल  भन्दा अघिका सरकारबाट १।२ वटा सानातिना विकास कार्यहरू कार्यान्वित गराइएको भए तापनि यी कार्यहरूको महत्व धेरै सीमित थियो ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Among them were limited programmes to develop power and drinking water facilities in Kathmandu, health programmes in a few districts, some schools, and a college, a commercial bank, a few roads and some small-scale irrigation works.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्यस बखत भएका विशेष उल्लेखनीय विकास कार्यहरूमध्ये काठमाडौंमा विद्युत तथा  पिउने पानीको व्यवस्था, काठमाडौं र अन्य केही जिल्लाहरूमा स्वास्थ्य सेवाको सुविधा, केही स्कूल तथा एक कलेजको स्थापना, एक बैंकको स्थापना र केही सानातिना सडक, नहर आदि हुन ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The abolition of slavery in 1925 was the most significant social measure.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>सामाजिक विकासतर्फ बि.सं. । यी बाहेक देशको सर्वतोमुखी विकासका लागि चाहिने आवश्यक व्यवस्था तथा तावरण सृजना गर्नेतर्फ त्यस बखतका शासकहरूको ध्यान गएन१९८२ मा भएको कमारा प्रथाको उन्मूलन उल्लेखनीय छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>But as a result of various political and geographic conditions, Nepal remained isolated behind other countries in its social and economic development.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यसको  फलस्वरुप विश्वका अरु कैयौं राष्ट्रहरू आधुनीकरण र राष्ट्र निर्माणको कार्यमा लगिरहेको बेलामा नेपालले वाह्य सम्पर्कबाट समेत बञ्चित भई उही पिछडिएको अवस्थामा रहन वाध्य हुनु पर्‍यो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>However, the economic stimulus of World War II led to the establishment of the first modern industrial units Nepal.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>हुन त त्यस बेलामा  औद्योगिक विकास तर्फ केही महत्वपूर्ण कार्यहरू पनि भएका थिए। खास गरी द्धितीय विश्व-युद्ध कालमा सोही युद्धबाट मिलेको प्रोत्साहनको फलस्वरुप नेपालमा सर्वप्रथम आधुनिक उद्योगहरूको स्थापना भए।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Many of these failed to survive the immediate post-war period because of poor management and lack of technical knowledge.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>तर त्यस बेला । कारण उद्योगहरू स्थापना गर्नु भन्दा अघि गर्नुपर्ने प्रारम्भिक सर्वेक्षण, प्राविधिक ज्ञान आदिको राम्रो विचार नगरी केवल विश्वखुलेका सबै उद्योगहरू हालसम्म चालू रहन सकेनन  -युद्धले गर्दा एक्कासी देखिन गएको ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Only very recently attention has been given to feasibility studies and the other prerequisites of sound industrial development.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>अतः बितेका अनुभवको आधारमा यी सब कुराहरूमा पनि राम्रो विचार पुर्‍याई हालै नयाँ उद्योगहरूको स्थापना स्थापना हुन लागेको छ बजारको सम्भावनाको आधारमा मात्र सो उद्योगहरू खेलेकोहुँदा विश्व -युद्ध पछि यी उद्योगहरू ह्रास हुँदै गए।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Even after the political changes of 1951-52 relatively little progress was made.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>२००७ सालको परिवर्तनपछि पनि केही वर्ष देशमा आर्थिक विकासका लागि विभिन्न क्षेत्रमा केही कदम  चालिए</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The difficulties of changing the political and administrative structure were largely responsible.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>तर उस समयमा पनि स्वस्थ राजनैतिक वातावरणको अभावले गर्दा देश विकासतर्फ विशेष प्रगति हुन  सकेन। सायद यो कुरा एक राजनैतिक तथा प्रशासकीय प्रणालीबाट अर्को प्रणालीमा परिवर्तन हुँदा आइपर्ने संक्रमणकालीन स्थितिले गर्दा केही हदसम्म स्वाभाविक नै थियो।  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>First Five Year Plan (First Plan) 
+Serious efforts to plan economic development took place after the establishment of a Planning Board in 1955.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>प्रथम पञ्चवर्षीय योजना  
+२०१३ सालमा योजना मण्डलको गठन भएपछि मात्र नेपालमा सँगठित तथा योजनाबद्ध रुपमा आर्थिक विकास गर्ने प्रयास सुरू भयो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The First Five Year Plan, prepared by the Board, covered the 1956-61 periods.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>२०१३ सालमा गठन भएको मण्डलले तर्जुमा गरेको प्रथम पंञ्चवर्षीय योजना सोही वर्षदेखि लागू गरी २०१७-१८ मा समाप्त भयो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Because of the Bird’s limited knowledge and experience, there were serious shortcomings in the Plan itself.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्यसबेलाको सीमित ज्ञान र अनुभवले गर्दा त्यस योजनामा रहन गएका केही त्रुटिहरूका बाबजूद पनि त्यस पञ्चवर्षीय योजनाको कार्यान्वयनबाट महत्वपूर्ण फाइदाहरू हासिल भयो भन्न  सकिन्छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Despite this, some significant results were achieved, although expenditures were only Rs 210 millions or Rs.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>योजना अवधिमा कुल रू. २१ करोड अर्थात् वार्षिक औसत ४.२० करोड मात्र खर्च हुन सक्यो र सडक, बिजुली, उद्योग आदि महत्वपूर्ण क्षेत्रहरूमा कुनै खास विकास हुन सकेन तापनि यस योजनाले जनतामा योजनाको भावना जागृत गर्नुको साथै अधिकारीहरूमा पनि देशका विभि न्न समस्यालाई संयोजित दृष्टिकोणले हेर्ने बानी बसाल्यो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>There was significant progress in the fields of education and health.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>साथै यस योजना अवधिमा शिक्षा, स्वास्थ्य आदि क्षेत्रहरूमा विशेष प्रगति भयो र सडक, विद्युत, उद्योग आदि क्षेत्रहरूमा पनि केही आयोजनाहरूमा काम सुरू गरियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Overall, however, the plan made little4 headway creating the necessary base for economic development.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यसरी सामाजिक सेवाको क्षेत्रमा उल्लेखनीय प्रगति भए तापनि आर्थिकविकासका जग बसाल्नको लागि आवश्यक स्थिति सृजना गर्नमा भने यस योजनाको विशेष योगदान भएन। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The Three Year Plan (Second Plan) 
+A significant result of the First Plan was the recognition of the conditions required for successful planning and project implementation.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्रिवर्षीय योजना 
+प्रथम पञ्चवर्षीय योजनाको एक ठूलो उपलव्धि योजना र योजनाको तर्जुमा तथा सफल कार्यान्वयनको लागि चाहिने स्थितिको सम्बन्धमा वास्तविक ज्ञानको उपलव्धि हो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It was realized that a plan formulated without detailed knowledge of actual conditions and the development potential of the several was of limited usefulness.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>देशको वास्तविक परिस्थिति र विभिन्न क्षेत्रको विकासका सम्भावनाको बारेमा राम्रो ज्ञान नभई तर्जुमा गरिएको योजनाबाट विशेष लाभ हासिल गर्न नसकिने कुरा प्रथम पञ्चवर्षीय योजनाको कार्यान्वयनबाट सिद्ध भयो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>A plan must, moreover, take full account of administrative relationships and the limited financial and other resources available.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>विगत अनुभव र त्यसबाट हासिल भएको  शिक्षाबाट लाभ उठाई प्रशासकीय व्यवस्थाको क्षमता तथा सीमित आर्थिक र अरु साधनहरूको पृष्ठभूमिमा एक वास्तविक योजना बनाई कार्यान्वित गर्नुपर्ने कुरा महसूस गरियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>At the time the Second Plan was prepared, knowledge of economic conditions in Nepal was still extremely limited.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्रिवर्षीय योजना तर्जुमा गर्ने समयमा पनि देशको वास्तविक आर्थिक स्थितिबारे हाम्रो ज्ञान ज्यादै सीमित  थियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the absence of survey and studies of natural recourses, agricultural output national income and other economic variables, existing economic conditions could not be accurately ascertained.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>चाहिंदो सर्वे तथा अन्वेषणको अभावमा प्राकृतिक साधन तथा अरु विकासका सम्भावना वारेमा राम्रो  ज्ञान हुन सकेन। साथै देशको राष्टि्रय आय, बचत तथा लगानीसम्बन्धी तथ्याको अभावमा आर्थिक अवस्था कुन स्थितिमा छ र योजना अवधिपछि कुन स्थितिमा पुर्‍याउने हो, सो बारे निश्चित रुपमा लक्ष्य निर्धारण गरी योजना तर्जुमा गर्न सम्भव भएन।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>It was not possible, therefore, to set overall targets and goals in quantitative terms.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यी सब कुराहरूले गर्दा त्यस बखत पनि दु्रततर आर्थिक विकासका लागि एक विस्तृत तथा दीर्घकालीन लक्ष्य भएको योजना तर्जुमा गर्न सकिएन।  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The absence in data also prevented the formulation of a long range perspective planning within which the Second Plan was to operate.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्यस समयको हाम्रो सीमित ज्ञान, अनुभव तथा  सीमित साधन र कार्यक्षमता समेतको पृष्ठभूमिमा ज्यादै महत्वाकांक्षी योजना तर्जुमा गर्नुको सटृा निर्दिष्ट लक्ष्य भएको वस्तुस्थिति अनुरुप योजना बनाई यसलाई सुचारु रुपले कार्यान्वित गराउनु नै ज्यादै आवश्यक थियो। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Recognizing these limitations, Second Plan Sectoral targets were fixed in terms of Nepal’s ability to finance and imp lement the development programme.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यी सब कुरालाई ध्यानमा राखी त्रिवर्षीय योजनालाई एक प्रारम्भिक योजनाको रुपमा प्रस्तुत गरी  भविष्यमा देशव्यापी विस्तृत योजना बनाउन तथा सफलतापूर्वक कार्यान्वित गर्न चाहिने स्थिति बसाल्ने कार्यहरू  माथि जोड दिइयो। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Because of the existing shortcomings, the Second Plan gave priority to activities which would the base for more comprehensive future plans.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यही उद्देश्यअनुसार आर्थिक व्यवस्था वारे राम्रो ज्ञान हुने, विभिन्न क्षेत्रको व्यवस्थामूलक सुधार गर्ने र भविष्यका विकासका लागि चाहिने आधारभूत कुराहरूको निर्माण गर्ने कार्यहरूलाई उच्चतम प्राथमिकता दिइयो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Emphasis was given to the collection of data on economic conditions organizational reform and improvement, and the development of the economic infrastructure.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यसअनुसार उक्त योजनामा भूमि, प्रशासकीय तथा उद्योग व्यवसायसम्बन्धी व्यवस्थामा सुधार गर्ने, सर्वेक्षण र तथ्या संलनद्वारा आर्थिक व्यवस्था सम्बन्धमा ज्ञान बढाउने तथा तालीको सुविधा बढाउने कार्यक्रमलाई सबभन्दा बढी प्राथमिकता दिइयो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The other areas given emphasis were transport and communications, power, and m agriculture, agricultural extension work and irrigation.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>अनि प्राथमिकताको क्रममा यातायात र सञ्चारका साधन तथा विद्युत् शक्तिको विकास र सुधारगर्ने तथा कृषि विकासतर्फ सिँचाइ र कृषि प्रसार कार्यक्रम राखियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the industrial sector, emphasis was placed on the completion of projects already underway.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>उद्योगमा  भने चालू भइरहेका उद्योगधन्दाको स्थिति सुधार्ने र हात हालिसकेका उद्योग व्यवसायहरूलाई टुंङ ग्याउने  कार्यक्रमलाई प्राथमिकता दिइएको थियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>For social services, efforts were directed more at the improvement than the expansion of schools and health centre.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>सामाजिक सेवातर्फ अव्यावहारिक किसिमबाट सुविधाहरू बृद्धि गर्दै लैजानुको सटृा भएको सुविधालाई सुसङ गठित तथा सुव्यवस्थित गर्नेतर्फ जोड दिइएको थियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>An additional Rs 70 million was to be made available as loans to the private sector for investment in agriculture and industry.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>उपर्युक्तअनुसारको प्राथमिकता क्रमको आधारमा तयार पारिएको विभिन्न क्षेत्रका कार्यक्रम सञ्चालन   याइएको थियो। यसका अतिरिक्त कृषि, उद्योग आदि विभिन्न क्षेत्रको विकासका लागि सरकारबाट ऋणको रुपमा उपलव्ध गरिने रू. ७ करोड छुटृटै राखिएको थियोगर्नको लागि त्रिवर्षीय योजनामा जम्मा रू. ६० करोड छुट । </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Three Year Plan Progress 
+During the Second Plan, the progress made was significant from the point of view of rapid economic development.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्रिवर्षीय योजनाको प्रगति  
+त्रिवर्षीय योजनामा हासिल भएको प्रगति नेपालमा दु्रततर आर्थिक विकासका दृष्टिकोणबाट ठूलो महत्वको छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The planned outlay in the public sector was virtually achieved.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>खर्चको हिसाबबाट विचार गर्दा करिब करिब योजनामा छुट्याइएको पूरा रकम विभिन्न क्षेत्रको विकासका काममा खर्च भएको छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Table 1 gives the financial allocations and actual expenditures during the Second Plan.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>तालिका नं. १(क) मा विभिन्न क्षेत्रको लागि योजनामा छुट याइएको रकम र   वास्तविक खर्च साथ देखाइएको छ। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Out of the Rs 70 million allocated to the private sector, Rs 25 millions were al resettlement and industrial development loans.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>उपर्युक्त तालिकाअनुसार त्रिवर्षीय योजनामा लक्ष्यअनुसार छुट याइएको कुल रकमको झण्डै शत प्रतिशत   खर्च हुन आएको छ । यसको अतिरिक्त कृषि, पुनर्वास उद्योग आदिको निमित्त ऋणका लागि छुट याइएको रू. ७ करोड मध्येबाट रू. २ करोड ५० लाख ऋण प्रवन्ध गरिएको छ। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the public sector, the largest amount was spent on power development.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>सबभन्दा बढी खर्च विद्युत् विकासका लागि  खर्च भएको देखिन्छ र यसपछि क्रमशः यातायात सञ्चार, उद्योग, सिँचाइ आदि क्षेत्रहरूमा खर्च भएको देखिन्छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>These allocations are commensurate to with the priorities established in the original plan.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यो कुरा मोटामोटी रुपमा योजनामा तोकिएको प्राथमिकताअनुसार नै भएको छ भन्न सकिन्छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Table 1, appears to indicate a considerable shortfall in expenditures for survey and training.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>माथिको तालिकाअनुसार सर्वे, तालिमजस्ता क्षेत्रहरूमा लक्ष्यअनुसार खर्च हुन नसकेको जस्तो देखिन्छ ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This is misleading since expenditures on these activities, although separately shown in the target figures, are included in the departmental totals of realized magnitudes.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>तर, खर्चसम्बन्धी लक्ष्य देखाइएको कालममा विभिन्न विषयसम्बन्धी सर्वे तथा तालिम कार्यक्रमहरूका लागि लाग्ने खर्च पनि समावेश गरिएको र वास्तविक खर्चसम्बन्धी कालममा यस्ता कार्यहरूको लागि लागेको खर्च सम्बन्धित  विषयअन्तर्गत नै परेकाले वास्तविक खर्च कम देखिन गएको हो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Expenditures incurred for the forest resources and botanical surveys, mineral exploration, surveys of irrigation and power potential and in the transport sector are in the respective departmental totals.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यसरी सर्वेअन्तर्गत परेको वन, वनस्पति, खानी, सिँचाइ, जल विद्युत्, यातायात आदि विषयहरू सम्बन्धी सर्वे कार्यलाई भएको खर्च यी विषयहरू अन्तर्गत नै देखाइएको छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The same goes for training expenditures in such fields as agriculture, cooperatives, cadastral survey and the like.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>यस्तै तालिममा पनि कृषि, वन, स्वास्थ्य, शिक्षा, खानी, पञ्चायत, सहकारी, प्रशासन सम्बन्धी  तथा अन्य तालिम कार्यक्रमहरूका लागि भएको खर्च सम्बन्धित विषयहरूअन्तर्गत नै देखाइएको छ, जब कि योजनाको कार्यक्रममा यस्ता सबै खर्चहरू तालिम, सर्वे आदि छुटृटै शीर्षकअन्तर्गत राखिएको थियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Even in terms of physical objectives the Plan targets have, on the whole, been achieved.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्रिवर्षीय योजना अवधिमा भएका कार्यहरूको दृष्टि बाट विचार गर्दा पनि त्रिवर्षीय योजनाको उद्देश्य  सफल भएको मान्नु पर्दछ। त्रिवर्षीय योजनाको मुख्य उद्देश्य एक विस्तृत योजना देशव्यापी रुपमा तर्जुमा गर्न तथा सफलतापूर्वक कार्यान्वित गर्न चाहिने उपयुक्त स्थितिको सृजना गर्नु थियो। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The population census, sample agricultural survey, a national income estimate and other statistical and survey activities have provided greater knowledge about the economy.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>हाल यस योजनाको तथ्याको कमी र देशको आर्थिक अवस्था वारे  सीमित ज्ञानले गर्दा एक विस्तृत तथा दीर्घकालीन पृष्ठभूमिमा योजना तर्जुमा गर्न जुन वाधा थियो सो देशव्यापी जनगणना, कृषि गणना, राािष्ट्रय आय अनुमानलगायत अरु संकलन तथा सर्वे कार्यले गर्दा पूर्णतया नभए पकिार्यान्वयनबाट यस उद्देश्य धेरैमात्रामा सफलीभूत भएको छ न  काफी मात्रामा हट्न गएकोछ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Development budget expenditures increase annually over the Second Plan period and represents, in monetary terms, improvements made in administrative efficiency and th4e absorptive capacity of Nepal.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>प्रशासकीय व्यवस्थामा सुधार गर्नेतर्फ उठाइएका विभिन्न कदमहरूको फलस्वरुप देशको प्रशासकीय क्षमतामा ठूलो बृद्धि भएको छ। सो कुरा सरकारको बढ  दो खर्च गर्ने क्षमताबाट स्पष्ट हुन्छ। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In 1962- 63, the first year of the plan, Rs 70 million were spent.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>त्रिवर्षीय योजनाको प्रथम वर्षमा श्री ५ को सरकारको विकास बजेटबा ट जम्मा रू. ७ करोड खर्च  भएको थियो।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In the second year, development budget expenditures rose to Rs 147 million, In the final year expenditures were Rs 180 million, excluding projects supported by Indian Aid, which were added in th4 supplementary budget.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>दोस्रो वर्ष सो रकममा बृद्धि हुन गई रू. १४ करोडभन्दा बढी हुन गयो र यस अन्तिम वर्षमा रू. १८ करोड भन्दा बढी(पूरक बजेटमा समावेश गरिएको भारतीय सहायताअन्तर्गतका आयोजनाहरूमा भएको खर्च बाहेक) पुगेको अनुमान छ ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>In addition to administrative reform, land reforms were started during the Second Plan.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>सरकारको विकासतर्फ खर्च गर्ने क्षमतालाई मापदण्ड मानी विचार गरेको खण्डमा त्रिवर्षीय योजना अघिको दाँजोमा सरकारको प्रशासकीय दक्षतामा त्रिवर्षीय योजनाको कार्यान्वयनको फलस्वरुप झण्डै तेव्वर बृद्धि भएको छ भन्न सकिन्छ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Their purpose is to modernize agriculture and provide incentives for increasing production.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>प्रशासकीय व्यवस्थामा सुधारका साथसाथै देशका ९३  प्रतिशत जनता अवलम्बित भएकोकृषि व्यवसायमा परिवर्तन ल्याउन र आधुनिकीकरण गर्नका लागि वास्तविक जोताहाहरूलाई कृषि उत्पादन बढाउन तथा त्यसबाट लाभ उपलव्ध गर्नका लागि आवश्यक प्रोत्साहन दिन देशव्यापी भूमिसुधार कार्य सुरू भइसकेको छ। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Significant progress has been achieved in industry, transport and power.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>उपर्युक्तअनुसार प्रशासकीय तथा व्यवस्थामूलक सुधार बाहेक उद्योग, यातायात, बिजुली जस्ता क्षेत्रहरूमा पनि महत्वपूर्ण प्रगति भएको छ। </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>The present position of the several sectors of the economy is given in the following sections: 
+Agriculture 
+Nepal’s agricultural output depends very heavily on climatic conditions.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>अतः नेपालको तेस्रो योजनाको कार्यान्वयनको सुरूमा नेपालको आर्थिक व्यवस्थाको विभिन्न क्षेत्रको स्थिति तल उल्लेख गरिएअनुसार भएको छ।  
+कृषि  
+उत्पादनमा बृद्धि हुने नहुने कुरा अझै पनि धेरै हदसम्म समयमा तथा पर्याप्त मात्रामा वर्षा हुने नहुने कुरा माथि निर्भर गर्दछ।</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>During 1963-64, the second year of the Second Plan, whether conditions adversely affected agricultural output.</seg>
+      </tuv>
+      <tuv xml:lang="NE-NP">
+        <seg>नेपालमा कृषि व्यवसाय अझै पनि मुख्यतः मौसममा नै आधारित छ। तसर्थ कृषि उ। त्रिवर्षीय  योजनाको दोस्रो 
+वर्षमा मौसमको खराबीले गर्दा कृषि उत्पादनमा केही नराम्रो असर पर्न गए तापनि बांकी वर्षमा मौसम साधारणतया 
+राम्रोनै थियो।</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
