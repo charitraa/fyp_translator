@@ -1,6 +1,6 @@
-# translator/pipeline.py
 import uuid
 import os
+from django.conf import settings
 from .asr import ASR
 from .translator import LocalTranslator
 from .tts import NepaliTTS
@@ -11,37 +11,36 @@ class SpeechTranslator:
         self.translator = LocalTranslator()
 
     def speech_to_speech(self, audio_file):
-        temp_dir = "temp_audio"
+        temp_dir = os.path.join(settings.MEDIA_ROOT, "temp_audio")
         os.makedirs(temp_dir, exist_ok=True)
-        input_path = os.path.join(temp_dir, f"input_{uuid.uuid4().hex}.wav")
 
+        # Save uploaded audio
+        input_path = os.path.join(temp_dir, f"{uuid.uuid4().hex}.wav")
         with open(input_path, "wb") as f:
             for chunk in audio_file.chunks():
                 f.write(chunk)
 
-        # 1. ASR
-        text, lang = self.asr.transcribe(input_path)
+        # Step 1: Speech → Text
+        text, detected_lang = self.asr.transcribe(input_path)
+
         if not text:
             return {"error": "No speech detected"}
 
-        # 2. Direction
-        direction = "en2ne" if lang.startswith("en") else "ne2en"
-
-        # 3. Translate
-        if direction == "en2ne":
+        # Step 2: Decide direction
+        if detected_lang.startswith("en"):
             translated = self.translator.en_to_ne(text)
             tts_lang = "ne"
         else:
             translated = self.translator.ne_to_en(text)
             tts_lang = "en"
 
-        # 4. TTS
-        output_path = os.path.join(temp_dir, f"output_{uuid.uuid4().hex}.mp3")
-        NepaliTTS(lang=tts_lang).synthesize(translated, output_path)
+        # Step 3: Text → Speech
+        output_path = os.path.join(temp_dir, f"{uuid.uuid4().hex}.mp3")
+        NepaliTTS(tts_lang).synthesize(translated, output_path)
 
         return {
-            "detected_language": lang,
             "recognized_text": text,
+            "detected_language": detected_lang,
             "translation": translated,
-            "output_audio": f"/{temp_dir}/{os.path.basename(output_path)}"
+            "audio_url": f"/media/temp_audio/{os.path.basename(output_path)}"
         }
