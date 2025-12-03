@@ -29,10 +29,10 @@ class SpeechTranslator:
 
         # 3. Translate
         if direction == "en2ne":
-            translated = self.translator.translate_en_to_ne(text)
+            translated = self.translator.en_to_ne(text)
             tts_lang = "ne"
         else:
-            translated = self.translator.translate_ne_to_en(text)
+            translated = self.translator.ne_to_en(text)
             tts_lang = "en"
 
         # 4. TTS
