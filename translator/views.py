@@ -1,7 +1,10 @@
 # translator/views.py
 
+import os
+import uuid
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from translator import settings
 from .translator import LocalTranslator
 from .pipeline import SpeechTranslator
 import threading
@@ -46,3 +49,25 @@ class SpeechTranslateView(APIView):
             return Response(result)
         except Exception as e:
             return Response({"error": str(e)})
+
+class SaveAudioView(APIView):
+    def post(self, request):
+        raw_data = request.body
+        
+        if not raw_data:
+            return Response({"error": "No audio received"}, status=400)
+
+        save_dir = os.path.join(settings.MEDIA_ROOT, "esp_audio")
+        os.makedirs(save_dir, exist_ok=True)
+    
+        filename = f"{uuid.uuid4().hex}.wav"
+        file_path = os.path.join(save_dir, filename)
+
+        with open(file_path, "wb") as f:
+            f.write(raw_data)
+
+        return Response({
+            "status": "success",
+            "saved_as": filename,
+            "url": f"/media/esp_audio/{filename}"
+        })
