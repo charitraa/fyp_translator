@@ -1,4 +1,5 @@
 # main_pipeline.py
+from urllib import response
 import serial
 import time
 import os
@@ -22,9 +23,9 @@ ser.reset_output_buffer()
 
 def record_from_esp32(duration=5, filename="recorded.pcm"):
     print(f"\nRecording {duration} seconds (16 kHz)... Speak now!")
-    # ser.reset_input_buffer()
-    # ser.reset_output_buffer()
-    # time.sleep(0.05)
+    ser.reset_input_buffer()
+    ser.reset_output_buffer()
+    time.sleep(0.05)
     total_bytes = SAMPLE_RATE * duration * 2
     data = b""
 
@@ -54,16 +55,21 @@ def convert_for_dac(input_wav="recorded.wav", output_raw="to_speaker_u8.raw"):
     subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     print(f"Converted for ESP32 DAC → {output_raw}")
 
-def send_to_api_and_get_mp3(wav_file="recorded.wav"):
+def send_to_api_and_get_mp3(wav_file):
     print("Sending to translation API...")
     files = {'audio': ('audio.wav', open(wav_file, 'rb'), 'audio/wav')}
     response = requests.post(API_URL, files=files, timeout=60)
-
+    print(response)
     if response.status_code != 200:
         print("API error:", response.text)
         return None
 
     data = response.json()
+    print(data)
+    if data.get("error"):
+        print('speak clearly!')
+        print("API returned error:", data["error"])
+        return None
     mp3_url = "http://127.0.0.1:8000" + data['audio_url']   # adjust if domain different
     print("Recognized :", data['recognized_text'])
     print("Translation:", data['translation'])
@@ -107,7 +113,9 @@ def main_loop():
         except KeyboardInterrupt:
             print("\nBye!")
             break
-
+        ser.reset_input_buffer()
+        ser.reset_output_buffer()
+        time.sleep(0.05)
         # 1. Record from ESP32
         record_from_esp32(RECORD_DURATION, "recorded.pcm")
 
@@ -121,6 +129,7 @@ def main_loop():
 
         # 3. Send to your Django API → get translated MP3
         mp3_path = send_to_api_and_get_mp3("recorded.wav")
+        print(mp3_path)
         if not mp3_path:
             continue
 

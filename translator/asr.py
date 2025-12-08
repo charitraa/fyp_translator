@@ -7,7 +7,7 @@ from langdetect import detect, DetectorFactory
 DetectorFactory.seed = 0
 
 class ASR:
-    def __init__(self, model_size="small"):
+    def __init__(self, model_size="medium"):
         use_gpu = os.getenv("USE_GPU", "0") == "1"
 
         if use_gpu:

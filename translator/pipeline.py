@@ -7,7 +7,7 @@ from .tts import NepaliTTS
 
 class SpeechTranslator:
     def __init__(self):
-        self.asr = ASR(model_size="small")
+        self.asr = ASR(model_size="medium")
         self.translator = LocalTranslator()
 
     def speech_to_speech(self, audio_file):
@@ -27,7 +27,7 @@ class SpeechTranslator:
             return {"error": "No speech detected"}
 
         # Step 2: Decide direction
-        if detected_lang.startswith("en"):
+        if detected_lang.lower().startswith("en"):
             translated = self.translator.en_to_ne(text)
             tts_lang = "ne"
         else:
