@@ -2,3 +2,8 @@
 /models
 /temp_audio
 /media
+/db.sqlite3
+/staticfiles
+.DS_Store
+*.log
+/.ipynb_checkpoints

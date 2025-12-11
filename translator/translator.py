@@ -8,7 +8,9 @@ import torch
 
 class LocalTranslator:
     def __init__(self, model_dir="models"):
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        import torch
+        torch.cuda.empty_cache()
+        self.device ="cpu"
         print("Translator using:", self.device)
 
         self.mbart_tokenizer = MBart50TokenizerFast.from_pretrained(f"{model_dir}/ne2en")

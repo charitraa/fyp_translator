@@ -37,11 +37,14 @@ class TextTranslateView(APIView):
 class SpeechTranslateView(APIView):
     def post(self, request):
         audio = request.FILES.get("audio")
+        mode = int(request.data.get("mode", 1))  # default English
+
         if not audio:
             return Response({"error": "audio file missing"})
 
+        worker = SpeechTranslator(mode)
+
         try:
-            worker = get_speech_translator()
             result = worker.speech_to_speech(audio)
             return Response(result)
         except Exception as e:
