@@ -6,6 +6,7 @@ import subprocess
 import keyboard  
 import requests
 from pydub import AudioSegment
+from pydub.playback import play
 
 # ========================= CONFIG =========================
 SERIAL_PORT = '/dev/ttyUSB0'
@@ -159,14 +160,21 @@ def main_loop():
         if not mp3_path:
             continue
 
-        # 4. Convert translated MP3 → raw
         sound = AudioSegment.from_file(mp3_path)
-        sound = sound.set_frame_rate(ESP_SAMPLE_RATE).set_channels(1).set_sample_width(1)
-        sound = sound.apply_gain(+18)
-        sound.export("to_speaker_u8.raw", format="u8")
+        sound = sound.set_frame_rate(16000).set_channels(1)
 
-        # 5. Stream to speaker
-        stream_raw_to_esp32("to_speaker_u8.raw")
+        print("🔊 Playing translated audio on laptop...")
+        play(sound)
+
+
+        # # 4. Convert translated MP3 → raw
+        # sound = AudioSegment.from_file(mp3_path)
+        # sound = sound.set_frame_rate(ESP_SAMPLE_RATE).set_channels(1).set_sample_width(1)
+        # sound = sound.apply_gain(+18)
+        # sound.export("to_speaker_u8.raw", format="u8")
+
+        # # 5. Stream to speaker
+        # stream_raw_to_esp32("to_speaker_u8.raw")
 
     ser.close()
 
